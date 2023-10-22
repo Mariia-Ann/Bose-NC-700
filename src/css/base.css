@@ -1,0 +1,29 @@
+:root {
+   --color-dark: #191919;
+   --color-white: #FFFFFFCC;
+   --color-white-hov: #FFFFFFE5;
+   --color-button: #DF3D3A;
+   --color-button-active: #B5302D;
+   --color-link: #0C58EB;
+   --color-empty: #FFFFFF4D;
+   --color-title: #E7E7E7;
+  }
+  
+  body {
+    font-family: 'Gilroy', sans-serif;
+    color: var(--color-white);
+    background-color: var(--color-dark);
+  }
+
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
