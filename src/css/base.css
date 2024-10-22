@@ -1,6 +1,7 @@
 :root {
    --color-dark: #191919;
-   --color-white: #FFFFFFCC;
+   --color-white: #ffffff;
+   --color-white-tr: #FFFFFFCC;
    --color-white-hov: #FFFFFFE5;
    --color-button: #DF3D3A;
    --color-button-active: #B5302D;
@@ -13,6 +14,7 @@
     font-family: 'Gilroy', sans-serif;
     color: var(--color-white);
     background-color: var(--color-dark);
+    font-size: 20px;
   }
 
   .visually-hidden {
@@ -26,4 +28,13 @@
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+  }
+
+  .subtitle {
+    color: var(--color-title);
+    font-size: 24px;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+    text-transform: uppercase;
+    font-weight: 600;
   }

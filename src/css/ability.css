@@ -1,0 +1,75 @@
+.ability-section {
+  padding: 26px 0;
+}
+
+.ability-container {
+}
+
+.ability-title {
+  margin-bottom: 32px;
+}
+
+.ability-item {
+  color: var(--color-white-tr);
+  font-size: 14px;
+  line-height: 1.25;
+  display: flex;
+  gap: 24px;
+}
+
+.ability-item:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.ability-ellipse {
+  padding-top: 3px;
+}
+.ability-ellipse-icon {
+  fill: var(--color-button);
+}
+
+@media screen and (min-width: 768px) {
+  .ability-section {
+    padding: 64px 0 50px;
+  }
+  .ability-title {
+    font-style: 30px;
+  }
+  .ability-item {
+    font-size: 16px;
+    line-height: 1.45;
+    gap: 16px;
+  }
+
+  .ability-ellipse {
+    padding-top: unset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+    .ability-section {
+        padding: 85px 0;
+      }
+
+      .ability-container {
+        padding-left: 110px;
+        width: 1091px;
+    }
+    .ability-title {
+        font-size: 54px;
+        margin-bottom: 50px;
+      }
+      .ability-item {
+        font-size: 20px;
+        gap: 20px;
+      }
+      .ability-item:not(:last-child) {
+        margin-bottom: 20px;
+       }
+      .ability-list {
+        column-count: 2;
+      }
+}
