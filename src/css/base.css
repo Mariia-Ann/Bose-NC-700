@@ -1,40 +1,52 @@
 :root {
-   --color-dark: #191919;
-   --color-white: #ffffff;
-   --color-white-tr: #FFFFFFCC;
-   --color-white-hov: #FFFFFFE5;
-   --color-button: #DF3D3A;
-   --color-button-active: #B5302D;
-   --color-link: #0C58EB;
-   --color-empty: #FFFFFF4D;
-   --color-title: #E7E7E7;
-  }
-  
-  body {
-    font-family: 'Gilroy', sans-serif;
-    color: var(--color-white);
-    background-color: var(--color-dark);
-    font-size: 20px;
-  }
+  --color-dark: #191919;
+  --color-white: #ffffff;
+  --color-white-tr: #ffffffcc;
+  --color-white-hov: #ffffffe5;
+  --color-button: #df3d3a;
+  --color-button-active: #b5302d;
+  --color-link: #0c58eb;
+  --color-empty: #ffffff4d;
+  --color-title: #e7e7e7;
+  --color-text: rgba(255, 255, 255, 0.80);
+}
 
-  .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-  }
+body {
+  font-family: 'Gilroy', sans-serif;
+  color: var(--color-white);
+  background-color: var(--color-dark);
+  font-size: 20px;
+}
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.subtitle {
+  color: var(--color-title);
+  font-size: 24px;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+@media only screen and (min-width: 768px) {
   .subtitle {
-    color: var(--color-title);
-    font-size: 24px;
-    letter-spacing: 0.02em;
-    line-height: 1.2;
-    text-transform: uppercase;
-    font-weight: 600;
+    font-size: 30px;
   }
+}
+
+@media screen and (min-width: 1440px) {
+  .subtitle {
+    font-size: 54px;
+  }
+}

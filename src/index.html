@@ -157,7 +157,7 @@
       <section class="ability-section">
         <div class="container">
           <div class="ability-container">
-            <h2 class=" subtitle ability-title">Capable of so much</h2>
+            <h2 class="subtitle ability-title">Capable of so much</h2>
             <ul class="ability-list">
               <li class="ability-item">
                 <div class="ability-ellipse">
@@ -221,26 +221,17 @@
             <!-- Desktop -->
             <source
               media="(min-width: 1440px)"
-              srcset="
-                ./img/sound/desk.png    1x,
-                ./img/sound/desk@2x.png 2x
-              "
+              srcset="./img/sound/desk.png 1x, ./img/sound/desk@2x.png 2x"
             />
             <!-- Tablet -->
             <source
               media="(min-width: 768px)"
-              srcset="
-                ./img/sound/tab.png    1x,
-                ./img/sound/tab@2x.png 2x
-              "
+              srcset="./img/sound/tab.png 1x, ./img/sound/tab@2x.png 2x"
             />
             <!-- Mobile -->
             <source
               media="(max-width: 767.98px)"
-              srcset="
-                ./img/sound/mob.png    1x,
-                ./img/sound/mob@2x.png 2x
-              "
+              srcset="./img/sound/mob.png 1x, ./img/sound/mob@2x.png 2x"
             />
             <img
               class="sound-img"
@@ -275,28 +266,96 @@
       <!-- End Sound section -->
 
       <!-- Technology section -->
-      <!-- <section class="technology-section">
-        <div class="container">
-          <h2 class="subtitle">Bose AR</h2>
-          <h3 class="technology-subtitle">Brand name technology</h3>
-          <p class="technology-text">
-            Bose AR is a unique audio platform augmented reality, that opens
-            before you new facets of sound. It allows you to stay connected to
-            the real world and immerse yourself in the virtual universe at the
-            same time.
-          </p>
+      <section class="technology-section">
+        <div class="container technology-container">
+          <div class="technology-left">
+            <h2 class="subtitle technology-title">Bose AR</h2>
+            <h3 class="technology-subtitle">Brand name technology</h3>
+            <p class="technology-text">
+              Bose AR is a unique audio platform augmented reality, that opens
+              before you new facets of sound. It allows you to stay connected to
+              the real world and immerse yourself in the virtual universe at the
+              same time.
+            </p>
+          </div>
+          <div class="technology-right">
+            <picture>
+              <!-- Desktop -->
+              <source
+                media="(min-width: 1440px)"
+                srcset="
+                  ./img/technology/desk.png    1x,
+                  ./img/technology/desk@2x.png 2x
+                "
+              />
+              <!-- Tablet -->
+              <source
+                media="(min-width: 768px)"
+                srcset="
+                  ./img/technology/tab.png    1x,
+                  ./img/technology/tab@2x.png 2x
+                "
+              />
+              <!-- Mobile -->
+              <source
+                media="(max-width: 767.98px)"
+                srcset="
+                  ./img/technology/mob.png    1x,
+                  ./img/technology/mob@2x.png 2x
+                "
+              />
+              <img
+                class="technology-img"
+                src="./img/technology/mob.png"
+                alt="technology girl"
+                width="280"
+                height="253"
+              />
+            </picture>
+          </div>
         </div>
-      </section> -->
+      </section>
       <!-- End Technology section -->
 
       <!-- Guarantee section -->
-      <!-- <section class="guarantee-section">
-        <div class="container">
-          <img src="#" alt="" />
-          <h2>Guarantees</h2>
-          <img src="" alt="" />
+      <section class="guarantee-section">
+        <div class="container guarantee-container">
+          <div class="guarantee-right">
+            <h2 class="subtitle guarantee-title">Guarantees</h2>
+            <ul class="guarantee-list">
+              <li class="guarantee-item">
+                90 Day Money Back Guarantee
+                <p class="guarantee-text">
+                  If you are not 100% satisfied with a product, you can return
+                  it back for a full refund.
+                </p>
+              </li>
+              <li class="guarantee-item">
+                1 year warranty
+                <p class="guarantee-text">
+                  Regardless of your country of residence, if your headphones
+                  are broken, we will send you new ones.
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div class="guarantee-picture">
+            <img
+              class="guarantee-img"
+              src="./img/guarantee/img.png"
+              srcset="./img/guarantee/img.png 1x, ./img/guarantee/img@2x.png 2x"
+              alt="Headphone white color"
+              width="280"
+              height="268"
+            />
+          </div>
+          <img
+            class="guarantee-ellipse"
+            src="./img/guarantee/ellipse.png"
+            alt="Ellipse image"
+          />
         </div>
-      </section> -->
+      </section>
       <!-- End Guarantee section -->
 
       <!-- History section -->
@@ -385,8 +444,8 @@
     <!-- End Footer -->
 
     <!-- Mobile menu -->
-    <div class="menu-container" data-menu>
-      <button class="mobile-menu-btn" type="button" data-menu-close>
+    <div class="menu-container">
+      <button class="mobile-menu-btn" type="button">
         <svg class="mobile-menu-icon" width="24" height="24">
           <use href="./img/icons.svg#icon-close-large"></use>
         </svg>

@@ -1,0 +1,135 @@
+.guarantee-section {
+  padding: 26px 0;
+}
+.guarantee-title {
+  margin-bottom: 32px;
+}
+.guarantee-list {
+  margin-bottom: 32px;
+}
+.guarantee-item {
+  position: relative;
+  padding-left: 30px; /* Місце для кружечка */
+
+  color: var(--color-title);
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.guarantee-item::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 13px;
+  transform: translateY(-50%);
+  width: 13px;
+  height: 13px;
+  background-color: var(--color-button);
+  border-radius: 50%;
+}
+
+.guarantee-item:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.guarantee-text {
+  margin-top: 16px;
+  color: var(--color-text);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25;
+}
+
+.guarantee-ellipse {
+  display: none;
+}
+
+/* Media */
+@media screen and (max-width: 767.89px) {
+  .guarantee-item {
+    width: 200px;
+  }
+  .guarantee-text {
+    width: 250px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .guarantee-section {
+    padding: 50px 0;
+  }
+
+  .guarantee-container {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 60px;
+    padding-left: 0;
+    justify-content: flex-end;
+  }
+
+  .guarantee-img {
+    width: 354px;
+    height: 442px;
+  }
+
+  .guarantee-right {
+    width: 294px;
+  }
+
+  .guarantee-list {
+    margin-bottom: 0;
+  }
+
+  .guarantee-item:not(:last-child) {
+    margin-bottom: 55px;
+  }
+
+  .guarantee-text {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1.45;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .guarantee-section {
+    padding: 85px 0;
+  }
+
+  .guarantee-container {
+    gap: 150px;
+    position: relative;
+  }
+
+  .guarantee-img {
+    width: 590px;
+    height: 565px;
+  }
+  .guarantee-right {
+    width: 440px;
+  }
+  .guarantee-title {
+    margin-bottom: 50px;
+  }
+  .guarantee-item {
+    font-size: 28px;
+  }
+  .guarantee-item::before {
+    top: 17px;
+    width: 15px;
+    height: 15px;
+  }
+  .guarantee-item:not(:last-child) {
+    margin-bottom: 69px;
+  }
+  .guarantee-text {
+    font-size: 20px;
+  }
+
+  .guarantee-ellipse {
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 10%;
+  }
+}

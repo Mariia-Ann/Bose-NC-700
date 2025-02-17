@@ -41,6 +41,16 @@
   color: var(--color-white);
   font-weight: 500;
   font-size: 16px;
+
+  background-size: 200% 100%;	
+	background-image: linear-gradient(to right, transparent 50%, #b5302d 50%);
+  transition: background-position 0.3s cubic-bezier(0.19, 1, 0.22, 1) 0.1s,
+ background-color 0.5s ease;
+}
+
+.button-hero:hover {
+  background-color: var(--color-button-active);
+  background-position: -100% 100%;
 }
 
 /* Media */

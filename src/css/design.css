@@ -42,10 +42,6 @@
     width: 294px;
   }
 
-  .design-title {
-    font-size: 30px;
-  }
-
   .design-text {
     font-size: 16px;
     line-height: 1.45;
@@ -73,7 +69,6 @@
   }
 
   .design-title {
-    font-size: 54px;
     margin-bottom: 50px;
   }
 

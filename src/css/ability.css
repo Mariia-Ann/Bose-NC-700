@@ -32,9 +32,6 @@
   .ability-section {
     padding: 64px 0 50px;
   }
-  .ability-title {
-    font-style: 30px;
-  }
   .ability-item {
     font-size: 16px;
     line-height: 1.45;
@@ -59,7 +56,6 @@
         width: 1091px;
     }
     .ability-title {
-        font-size: 54px;
         margin-bottom: 50px;
       }
       .ability-item {
